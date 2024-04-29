@@ -3,22 +3,22 @@
 body{
     font-family:"Barlow Semi Condensed", sans-serif;
     font-size:13px;
+    font-weight: 500;
 }
 
 .testimonial{
     
     &_author_position_container{
-
-        h2{
+        .testimonial-author{
             font-size:1.15em;
-            font-weight: 600;
+            font-weight: 600;   
         }
     }
     &-text{
 
         .highlight{
             font-size:1.5em;
-            font-weight: bold;
+            font-weight: 600;
         }
     }
 }
